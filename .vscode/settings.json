@@ -1,10 +1,37 @@
 {
     "cSpell.ignoreWords": [
-        "behaviour"
+        "behaviour",
+        "numpy",
+        "pandas",
+        "matplotlib",
+        "seaborn",
+        "conda",
+        "itertools",
+        "dataframe",
+        "ndarray"
     ],
     "cSpell.words": [
         "builtins",
         "colour",
-        "datamodel"
-    ]
+        "datamodel",
+        "sklearn",
+        "pyplot",
+        "xticks",
+        "yticks"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[jupyter]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--disable=C0111"],
+    "html.format.enable": true
 }
